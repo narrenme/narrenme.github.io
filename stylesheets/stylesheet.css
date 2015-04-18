@@ -13,7 +13,20 @@ a {
   color: #1e6bb8;
   text-decoration: none; }
   a:hover {
-    text-decoration: underline; }
+    text-decoration: none; }
+
+a.nav {
+  color: white;
+  border-bottom: 3px solid white;
+}
+  a.nav:link {
+    color: rgba(255, 255, 255, 0.7);
+    border-bottom: none;
+  }
+  a.nav:link:hover {
+    color: white;
+    border-bottom: none;
+  }
 
 .btn {
   display: inline-block;
@@ -94,14 +107,20 @@ a {
 
 @media screen and (min-width: 64em) {
   .project-tagline {
-    font-size: 1.25rem; } }
+    font-size: 1rem; }
+  p.nav {
+    font-size: 1.5rem; } }
 
 @media screen and (min-width: 42em) and (max-width: 64em) {
   .project-tagline {
-    font-size: 1.15rem; } }
+    font-size: .95rem; }
+  p.nav {
+    font-size: 1.3rem; } }
 
 @media screen and (max-width: 42em) {
   .project-tagline {
+    font-size: .9rem; }
+  p.nav {
     font-size: 1rem; } }
 
 .main-content :first-child {
@@ -243,3 +262,15 @@ a {
 @media screen and (max-width: 42em) {
   .site-footer {
     font-size: 0.9rem; } }
+
+@media screen and (min-width: 64em) {
+  .logo {
+    width: 30%; } }
+
+@media screen and (min-width: 42em) and (max-width: 64em) {
+  .logo {
+    width: 60%; } }
+
+@media screen and (max-width: 42em) {
+  .logo {
+    width: 80%; } }
