@@ -277,7 +277,7 @@ a.nav {
 
 @media screen and (min-width: 80em) {
   .secondary {
-    width: 12%; } }
+    width: 20%; } }
 
 @media screen and (min-width: 60em) and (max-width: 80em) {
   .secondary {
@@ -285,11 +285,11 @@ a.nav {
 
 @media screen and (min-width: 42em) and (max-width: 64em) {
   .secondary {
-    width: 40%; } }
+    width: 30%; } }
 
 @media screen and (max-width: 42em) {
   .secondary {
-    width: 60%; } }
+    width: 40%; } }
 
 .videoWrapper {
   position: relative;
