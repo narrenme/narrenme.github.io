@@ -275,9 +275,13 @@ a.nav {
   .logo {
     width: 80%; } }
 
-@media screen and (min-width: 64em) {
+@media screen and (min-width: 80em) {
   .secondary {
-    width: 20%; } }
+    width: 12%; } }
+
+@media screen and (min-width: 60em) and (max-width: 80em) {
+  .secondary {
+    width: 24%; } }
 
 @media screen and (min-width: 42em) and (max-width: 64em) {
   .secondary {
