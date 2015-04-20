@@ -275,6 +275,18 @@ a.nav {
   .logo {
     width: 80%; } }
 
+@media screen and (min-width: 64em) {
+  .secondary {
+    width: 20%; } }
+
+@media screen and (min-width: 42em) and (max-width: 64em) {
+  .secondary {
+    width: 40%; } }
+
+@media screen and (max-width: 42em) {
+  .secondary {
+    width: 60%; } }
+
 .videoWrapper {
   position: relative;
   padding-bottom: 56.25%; /* 16:9 */
